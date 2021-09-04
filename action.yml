@@ -1,0 +1,12 @@
+name: 'test action',
+description: 'say tk on pr',
+author: 'bishil06'
+
+inputs:
+  GITHUB_TOKEN:
+    description: 'github token',
+    required: true
+
+runs:
+  using: 'node12',
+  main: 'dist/index.js'
