@@ -6,7 +6,7 @@
 /************************************************************************/
 var __webpack_exports__ = {};
 async function sayTk() {
-    console.log(tk);
+    console.log('tk');
 }
 
 sayTk()
