@@ -1,12 +1,12 @@
-name: 'test action',
-description: 'say tk on pr',
+name: 'Thank You Action'
+description: 'Say "Thank You" to new pull requests'
 author: 'bishil06'
 
 inputs:
   GITHUB_TOKEN:
-    description: 'github token',
+    description: 'GitHub token'
     required: true
 
 runs:
-  using: 'node12',
+  using: 'node12'
   main: 'dist/index.js'
